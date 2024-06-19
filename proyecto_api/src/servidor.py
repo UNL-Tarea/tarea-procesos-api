@@ -9,7 +9,7 @@ import socketserver
 import urllib.parse
 import json
 
-PORT_API = 65435
+PORT_API = 10000
 PORT_CLIENTE = '*'  # Permitir cualquier origen (para desarrollo, ajustar en producción)
 
 class MiManejador(http.server.SimpleHTTPRequestHandler):

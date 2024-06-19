@@ -1,0 +1,23 @@
+# Requerimientos para Mi Proyecto
+
+# Bibliotecas estándar de Python (no se especifican versiones ya que son estándar)
+unittest
+http.server
+threading
+http.client
+json
+urllib.parse
+time
+
+# Dependencias externas (si las hubiera)
+# nombre_paquete==versión
+
+# Ejemplos ficticios:
+# Flask para el servidor web
+flask==2.0.1
+
+# SQLAlchemy para la gestión de bases de datos
+SQLAlchemy==1.4.22
+
+# Requests para hacer peticiones HTTP
+requests==2.26.0
