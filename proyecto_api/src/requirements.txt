@@ -2,7 +2,7 @@
 
 # Bibliotecas estándar de Python (no se especifican versiones ya que son estándar)
 #unittest
-http.server
+#http.server
 #threading
 #http.client
 #json
