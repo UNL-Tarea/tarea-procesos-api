@@ -8,7 +8,6 @@ import http.server
 import socketserver
 import urllib.parse
 import json
-from pagregarntarea import TaskManager
 
 PORT_API = 65435
 PORT_CLIENTE = '*'  # Permitir cualquier origen (para desarrollo, ajustar en producción)
@@ -95,5 +94,5 @@ class MiManejador(http.server.SimpleHTTPRequestHandler):
             self.wfile.write(json.dumps(error_message).encode('utf-8'))
 
 with socketserver.TCPServer(("", PORT_API), MiManejador) as httpd:
-    print("API-CERTIFICADO-MJRV-EJECUTÁNDOSE EN EL PUERTO:", PORT_API)
+    print("SERVIDOR-PUERTO:", PORT_API)
     httpd.serve_forever()
