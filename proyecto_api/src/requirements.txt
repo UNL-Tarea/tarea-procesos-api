@@ -3,11 +3,11 @@
 # Bibliotecas estándar de Python (no se especifican versiones ya que son estándar)
 #unittest
 http.server
-threading
-http.client
-json
-urllib.parse
-time
+#threading
+#http.client
+#json
+#urllib.parse
+#time
 
 # Dependencias externas (si las hubiera)
 # nombre_paquete==versión
