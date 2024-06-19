@@ -1,7 +1,7 @@
 # Requerimientos para Mi Proyecto
 
 # Bibliotecas estándar de Python (no se especifican versiones ya que son estándar)
-unittest
+#unittest
 http.server
 threading
 http.client
